@@ -3,5 +3,7 @@
   "useTabs": false,
   "trailingComma": "all",
   "semi": true,
-  "singleQuote": false
+  "singleQuote": false,
+  "singleAttributePerLine": true,
+  "printWidth": 80
 }
