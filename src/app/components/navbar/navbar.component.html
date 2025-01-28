@@ -1,0 +1,41 @@
+<div class="relative border-b-2 py-4 border-white"></div>
+<nav class="relative flex justify-around w-full font-bold text-yellow-50 py-4">
+  <a
+    class="cursor-pointer"
+    mat-button
+    [matMenuTriggerFor]="starsMenu"
+    >STARS</a
+  >
+  <a
+    class="cursor-pointer"
+    mat-button
+    [matMenuTriggerFor]="enemyStarsMenu"
+    >ENEMY-STARS</a
+  >
+
+  <mat-menu
+    #starsMenu
+    class="text-yellow-50">
+    <a mat-menu-item>Akali</a>
+    <a mat-menu-item>Kaisa</a>
+    <a mat-menu-item>Orianna</a>
+    <a mat-menu-item>Rakan</a>
+    <a mat-menu-item>Senna</a>
+    <a mat-menu-item>Seraphine</a>
+    <a mat-menu-item>Xayah</a>
+  </mat-menu>
+
+  <mat-menu
+    #enemyStarsMenu
+    class="text-yellow-50">
+    <a mat-menu-item>Fiddlesticks</a>
+    <a mat-menu-item>Morgana</a>
+    <a mat-menu-item>Zoe</a>
+  </mat-menu>
+
+  <a
+    class="cursor-pointer"
+    mat-button
+    >WALLPAPERS</a
+  >
+</nav>
