@@ -1,12 +1,12 @@
 import { CommonModule } from "@angular/common";
 import { NgModule } from "@angular/core";
-import { EnemieStarsRoutingModule } from "./enemy-stars-routing.module";
+import { FiddlesticksComponent } from "@components/enemy-stars/fiddlesticks/fiddlesticks.component";
 import { MorganaComponent } from "@components/enemy-stars/morgana/morgana.component";
 import { ZoeComponent } from "@components/enemy-stars/zoe/zoe.component";
-import { FiddlesticksComponent } from "@components/enemy-stars/fiddlesticks/fiddlesticks.component";
+import { EnemyStarsRoutingModule } from "./enemy-stars-routing.module";
 
 @NgModule({
   declarations: [MorganaComponent, ZoeComponent, FiddlesticksComponent],
-  imports: [CommonModule, EnemieStarsRoutingModule],
+  imports: [CommonModule, EnemyStarsRoutingModule],
 })
-export class EnemieStarsModule {}
+export class EnemyStarsModule {}
