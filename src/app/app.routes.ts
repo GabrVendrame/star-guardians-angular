@@ -14,11 +14,15 @@ export const routes: Routes = [
   {
     path: "enemy-stars",
     loadChildren: () =>
-      import("@modules/enemy-stars/enemy-stars.module").then((m) => m.EnemyStarsModule),
+      import("@modules/enemy-stars/enemy-stars.module").then(
+        (m) => m.EnemyStarsModule,
+      ),
   },
   {
     path: "wallpapers",
     loadChildren: () =>
-      import("@modules/wallpapers/wallpapers.module").then((m) => m.WallpapersModule),
-  }
+      import("@modules/wallpapers/wallpapers.module").then(
+        (m) => m.WallpapersModule,
+      ),
+  },
 ];
